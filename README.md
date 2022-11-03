@@ -15,3 +15,10 @@ Run the gui whith
 
 <code>python3 main.py</code>
 
+Contact frank@simens.dk
+
+Projektet kan findes på https://github.com/Hvemmse/
+
+Licens GPL 3
+
+https://www.112support.dk
