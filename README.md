@@ -22,3 +22,7 @@ Projektet kan findes på https://github.com/Hvemmse/
 Licens GPL 3
 
 https://www.112support.dk
+
+# Installation
+
+<code>git glone https://github.com/Hvemmse/GUInfo</code>
