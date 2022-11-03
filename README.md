@@ -40,5 +40,5 @@ VisInfo | Gennerer status.txt fil i mappen hvor programmet kører. <br>
 
 # Forklaring af filer.
 
-status  | er en Bash script med diverse kommandoer. Tilret denne fil til dine ønsker. <br> 
+status  | er en Bash script med diverse kommandoer. Ret denne fil til dine commandoer. <br> 
 main.py | er Selve gui programmet skrevet i python3 som bruger modul tkinter og os <br>
