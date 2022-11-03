@@ -1,0 +1,39 @@
+ 
+echo "----------------------------------"
+echo "Viser lsblk -d | grep -v loop"
+echo "----------------------------------"
+lsblk -d | grep -v loop
+echo
+echo "----------------------------------"
+echo "Viser df -h for alle mounted drev "
+echo "----------------------------------"
+df -h
+echo
+echo "----------------------------------"
+echo "Viser free -h Hukommelse"
+echo "----------------------------------"
+free -h
+echo
+echo "----------------------------------"
+echo "Viser lspci"
+echo "----------------------------------"
+lspci
+echo 
+echo "----------------------------------"
+echo "Viser lsusb"
+echo "----------------------------------"
+lsusb
+echo 
+echo "----------------------------------"
+echo "Viser lscpu"
+echo "----------------------------------"
+lscpu
+echo 
+echo "----------------------------------"
+echo "Viser netstat"
+echo "----------------------------------"
+netstat
+echo 
+echo "----------------------------------"
+echo "Bruger der er logget ind: " $USER
+echo "----------------------------------"
