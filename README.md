@@ -29,5 +29,5 @@ https://www.112support.dk
 
 # Layout
 
-<img src="https://github.com/Hvemmse/GUInfo/blob/02d4fcae5ae5f41507c06362a2e4ef58c85ec1e9/Sk%C3%A6rmbillede%20fra%202022-11-03%2014-18-22.png" alt="GUInfo" width="500" height="600">
+<img src="https://github.com/Hvemmse/GUInfo/blob/02d4fcae5ae5f41507c06362a2e4ef58c85ec1e9/Sk%C3%A6rmbillede%20fra%202022-11-03%2014-18-22.png" alt="GUInfo" >
 
