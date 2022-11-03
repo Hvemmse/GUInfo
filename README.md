@@ -33,12 +33,12 @@ https://www.112support.dk
 
 # Forklaring af knapper.
 
-LUK     | Lukker Programmet
-About   | Lidt info om mig 
-Kopier  | Kopier inholdet af teksboks til udklipsholder, funktionen kopierer indholdet af fil status.txt til Udklipsholder
-VisInfo | Gennerer status.txt fil i mappen hvor programmet kører.
+LUK     | Lukker Programmet<br>
+About   | Lidt info om mig <br>
+Kopier  | Kopier inholdet af teksboks til udklipsholder, funktionen kopierer indholdet af fil status.txt til Udklipsholder <br>
+VisInfo | Gennerer status.txt fil i mappen hvor programmet kører. <br>
 
 # Forklaring af filer.
 
-status  | er en Bash script med diverse kommandoer. Tilret denne fil til dine ønsker. 
-main.py | er Selve gui programmet skrevet i python3 som bruger modul tkinter og os
+status  | er en Bash script med diverse kommandoer. Tilret denne fil til dine ønsker. <br> 
+main.py | er Selve gui programmet skrevet i python3 som bruger modul tkinter og os <br>
