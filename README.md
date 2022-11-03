@@ -25,7 +25,7 @@ https://www.112support.dk
 
 # Installation
 
-<code>git glone https://github.com/Hvemmse/GUInfo</code>
+<code>git clone https://github.com/Hvemmse/GUInfo</code>
 
 # Layout
 
