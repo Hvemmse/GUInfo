@@ -3,7 +3,7 @@ A Grafic user info application in python tikinter and bash Script
 
 Danish Language.
 
-Reguirements tkinter Python 3.10 Testet on Ubunut 22.10
+Reguirements tkinter Python 3.10 Testet on Ubuntu 22.10, Archlinux.
 
 this packages are needed, xsel , git, and net-tools.
 
