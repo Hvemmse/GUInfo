@@ -1,15 +1,23 @@
+# Opdaterer pakkeindekset for at hente oplysninger om tilgængelige opdateringer og pakker fra online-repositorier.
 sudo apt update
 
+# Installerer nødvendige pakker og værktøjer til Docker-installation.
 sudo apt install apt-transport-https curl gnupg-agent ca-certificates software-properties-common -y
 
+# Henter Docker's GPG-nøgle og tilføjer den til systemet for at validere Docker's pakker som pålidelige.
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
+# Tilføjer Docker's officielle pakke-repository til systemkonfigurationen, specificerer arkitektur (amd64) og Ubuntu-version (focal).
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
 
+# Installerer Docker's kerneprogrammer, herunder Docker Engine, Docker Client og Containerd.
 sudo apt install docker-ce docker-ce-cli containerd.io -y
 
+# Tilføjer din bruger til Docker-gruppen for at køre Docker-kommandoer uden at bruge 'sudo'.
 sudo usermod -aG docker $USER
 
+# Viser statussen for Docker-tjenesten for at kontrollere, om Docker er kørende uden problemer.
 sudo systemctl status docker
 
+# Kører en enkel Docker-container ("hello-world") for at teste Docker-installationen.
 docker run hello-world
